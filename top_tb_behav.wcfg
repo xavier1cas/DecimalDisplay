@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="25.580001 us"></ZoomEndTime>
+      <Cursor1Time time="9.680000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="209"></NameColumnWidth>
+      <ValueColumnWidth column_width="69"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="23" />
+   <wvobject type="array" fp_name="/top_tb/dut/B2BCD/in_binary">
+      <obj_property name="ElementShortName">in_binary[15:0]</obj_property>
+      <obj_property name="ObjectShortName">in_binary[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/dut/B2BCD/packed_bcd">
+      <obj_property name="ElementShortName">packed_bcd[19:0]</obj_property>
+      <obj_property name="ObjectShortName">packed_bcd[19:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/dut/B2BCD/scratch_pad">
+      <obj_property name="ElementShortName">scratch_pad[35:0]</obj_property>
+      <obj_property name="ObjectShortName">scratch_pad[35:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/dut/B2BCD/packed_bcd_step">
+      <obj_property name="ElementShortName">packed_bcd_step[2:16][35:0]</obj_property>
+      <obj_property name="ObjectShortName">packed_bcd_step[2:16][35:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/dut/B2BCD/N">
+      <obj_property name="ElementShortName">N[31:0]</obj_property>
+      <obj_property name="ObjectShortName">N[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/dut/B2BCD/D">
+      <obj_property name="ElementShortName">D[31:0]</obj_property>
+      <obj_property name="ObjectShortName">D[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_tb/dut/FREQ_GENERATOR/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_tb/dut/FREQ_GENERATOR/reset_n">
+      <obj_property name="ElementShortName">reset_n</obj_property>
+      <obj_property name="ObjectShortName">reset_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_tb/dut/FREQ_GENERATOR/pulse">
+      <obj_property name="ElementShortName">pulse</obj_property>
+      <obj_property name="ObjectShortName">pulse</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/dut/FREQ_GENERATOR/counter">
+      <obj_property name="ElementShortName">counter[4:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/dut/FREQ_GENERATOR/N_BIT_COUNTER">
+      <obj_property name="ElementShortName">N_BIT_COUNTER[31:0]</obj_property>
+      <obj_property name="ObjectShortName">N_BIT_COUNTER[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/dut/FREQ_GENERATOR/COUNT">
+      <obj_property name="ElementShortName">COUNT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">COUNT[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_tb/dut/DISP_CONTROLLER/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_tb/dut/DISP_CONTROLLER/reset_n">
+      <obj_property name="ElementShortName">reset_n</obj_property>
+      <obj_property name="ObjectShortName">reset_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_tb/dut/DISP_CONTROLLER/display_enable">
+      <obj_property name="ElementShortName">display_enable</obj_property>
+      <obj_property name="ObjectShortName">display_enable</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/dut/DISP_CONTROLLER/packed_bcd">
+      <obj_property name="ElementShortName">packed_bcd[19:0]</obj_property>
+      <obj_property name="ObjectShortName">packed_bcd[19:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/dut/DISP_CONTROLLER/AN">
+      <obj_property name="ElementShortName">AN[4:0]</obj_property>
+      <obj_property name="ObjectShortName">AN[4:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <wvobject type="logic" fp_name="/top_tb/dut/DISP_CONTROLLER/AN[4]">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">[4]</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top_tb/dut/DISP_CONTROLLER/AN[3]">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">[3]</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top_tb/dut/DISP_CONTROLLER/AN[2]">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">[2]</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top_tb/dut/DISP_CONTROLLER/AN[1]">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">[1]</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/top_tb/dut/DISP_CONTROLLER/AN[0]">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/dut/DISP_CONTROLLER/out_segment">
+      <obj_property name="ElementShortName">out_segment[3:0]</obj_property>
+      <obj_property name="ObjectShortName">out_segment[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/dut/DISP_CONTROLLER/display_counter">
+      <obj_property name="ElementShortName">display_counter[3:0]</obj_property>
+      <obj_property name="ObjectShortName">display_counter[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/dut/DISP_CONTROLLER/N">
+      <obj_property name="ElementShortName">N[31:0]</obj_property>
+      <obj_property name="ObjectShortName">N[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/dut/DISP_CONTROLLER/D">
+      <obj_property name="ElementShortName">D[31:0]</obj_property>
+      <obj_property name="ObjectShortName">D[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/dut/DECO_7_SEG/BCD">
+      <obj_property name="ElementShortName">BCD[3:0]</obj_property>
+      <obj_property name="ObjectShortName">BCD[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/dut/DECO_7_SEG/seg_out">
+      <obj_property name="ElementShortName">seg_out[6:0]</obj_property>
+      <obj_property name="ObjectShortName">seg_out[6:0]</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+</wave_config>
